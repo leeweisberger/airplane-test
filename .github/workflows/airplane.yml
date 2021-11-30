@@ -1,0 +1,18 @@
+name: airplane deploy
+on:
+  push:
+    branches:
+      # Or "master"
+      - main
+jobs:
+  deploy-tasks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Deploy Airplane Tasks
+        uses: airplanedev/airplane-deploy@v1
+        with:
+          # Add your API key as a secret: https://docs.github.com/en/actions/security-guides/encrypted-secrets
+          api-key: ${{ secrets.AIRPLANE_API_KEY }}
+          # Find this at https://app.airplane.dev/settings/team
+          team-id: 1krOLhL50AzDHzvZbGMYJHTihgG
