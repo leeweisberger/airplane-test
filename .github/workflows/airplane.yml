@@ -16,3 +16,4 @@ jobs:
           api-key: ${{ secrets.AIRPLANE_API_KEY }}
           # Find this at https://app.airplane.dev/settings/team
           team-id: 1krOLhL50AzDHzvZbGMYJHTihgG
+          host: api.airstage.app
