@@ -13,7 +13,7 @@ type Params = {
 export default async function (
   params: Params
 ): Promise<{ result: string } | void> {
-  console.log("parameters:", params);
+  console.log("parameters!:", params);
 
   try {
     const res = await axios(params.url);
