@@ -6,7 +6,7 @@ export default async function(params) {
   // You can return data to show outputs to users.
   // Outputs documentation: https://docs.airplane.dev/tasks/outputs
   return [
-    {element: 'hydrogen!!!e', weight: 1.008},
+    {element: 'hydrogene!!!e', weight: 1.008},
     {element: 'heliudm!!!e', weight: 4.0026},
   ];
 }
