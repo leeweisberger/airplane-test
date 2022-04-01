@@ -7,6 +7,6 @@ export default async function(params) {
   // Outputs documentation: https://docs.airplane.dev/tasks/outputs
   return [
     {element: 'hydrogene!!!e', weight: 1.008},
-    {element: 'heliudm!!!e', weight: 4.0026},
+    {element: 'heliudm!!!eee', weight: 4.0026},
   ];
 }
